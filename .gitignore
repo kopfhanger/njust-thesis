@@ -1,0 +1,36 @@
+*.pdf
+*.aux
+*.log
+*.out
+# Typst compilation artifacts
+
+# Local reference repositories, uploaded source documents and audit artifacts.
+# They are intentionally kept on disk but are not part of the template source.
+/reference/
+/artifacts/
+/.reasonix/
+
+# Binary assets are supplied locally and are intentionally not tracked.
+*.bmp
+*.7z
+*.bz2
+*.doc
+*.docx
+*.eps
+*.gif
+*.jpeg
+*.jpg
+*.otf
+*.png
+*.rar
+*.tar
+*.gz
+*.ttc
+*.ttf
+*.webp
+*.xz
+*.zip
+
+# The released example needs only the school logo and the sample figure.
+# All other local image assets remain ignored.
+!fig/example/rabbit.png
